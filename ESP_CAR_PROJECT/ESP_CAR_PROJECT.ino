@@ -14,6 +14,7 @@ ESP8266WebServer server(80);
 char command = '0';
 
 void sendUI() {
+  //UI CODE IS WRITTEN BY CHAT GPT I DECIDED AND CODED LOGIC
   server.send(200, "text/html", R"rawliteral(
 // ===========================================================
 <!DOCTYPE html>
@@ -115,7 +116,6 @@ void sendUI() {
     send('0'); // Stop signal
   }
 
-  // ✅ UI button support (touch only, safe with gamepad)
   document.getElementById('btnU').addEventListener('touchstart', () => press('up'));
   document.getElementById('btnD').addEventListener('touchstart', () => press('down'));
   document.getElementById('btnL').addEventListener('touchstart', () => press('left'));
