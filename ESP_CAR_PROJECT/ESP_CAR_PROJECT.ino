@@ -169,7 +169,7 @@ void handleCommand() {
 
 void setup() {
   Serial.begin(115200);
-  WiFi.softAP("ESP-32", "12345678");
+  WiFi.softAP("ESP-8266", "12345678");
   server.on("/", sendUI);
   server.onNotFound(handleCommand);
   server.begin();
@@ -179,7 +179,7 @@ void setup() {
     pinMode(pins[i], OUTPUT);
 }
 }
-
+//change power1 to change motor speed upto 1023
 void start(
   int pin1 = -1, int pin2 = -1, int pin3 = -1, int pin4 = -1,
   int pin5 = -1, int pin6 = -1, int pin7 = -1, int pin8 = -1,
