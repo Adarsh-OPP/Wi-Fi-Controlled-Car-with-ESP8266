@@ -4,7 +4,7 @@ This is my **Wi-Fi controlled car project** built using an **ESP8266 NodeMCU**.
 The car can be controlled from a web interface hosted on the ESP8266, allowing movement in all directions — either with on-screen buttons or a connected game controller.
 
 ## 🎥 Demo Video
-[![Watch the demo](https://img.shields.io/badge/YouTube-Demo-red?logo=youtube)](https://youtube.com/shorts/4PICd1fZP5o?feature=share)
+https://youtube.com/shorts/4PICd1fZP5o?feature=share
 
 ## 📦 Components Used
 - ESP8266 NodeMCU
